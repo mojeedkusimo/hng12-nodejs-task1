@@ -1,4 +1,4 @@
-# Task Description
+# [Nodejs](https://hng.tech/hire/nodejs-developers) Task Description
 
 ## Develop a public API that returns the following information in JSON format:
 
@@ -12,4 +12,22 @@
   "current_datetime": "2025-01-30T09:30:00Z",
   "github_url": "<https://github.com/yourusername/your-repo>"
 }
+```
+
+## Setup instructions
+
+1. Execute below command to install dependencies
+
+```bash
+
+npm i 
+
+```
+
+2. Execute below to start the service
+
+```bash
+
+npm i 
+
 ```

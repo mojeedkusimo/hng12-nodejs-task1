@@ -1,13 +1,16 @@
 const express = require("express");
 const app = express();
 const PORT = 3434;
-app.get('/api', async (req,res) => {
+const cors = require("cors");
+app.use(cors());
 
-res.json({
-    "email": "mkusimo90@gmail.com",
-    "current_datetime": "2025-01-30T09:30:00Z",
-    "github_url": "https://github.com/mojeedkusimo/hng12-nodejs-task1"
-});
+app.get('/api', async (req, res) => {
+    const date = new Date();
+    return res.status(200).json({
+        "email": "mkusimo90@gmail.com",
+        "current_datetime": date,
+        "github_url": "https://github.com/mojeedkusimo/hng12-nodejs-task1"
+    });
 
 });
 
