@@ -28,6 +28,24 @@ npm i
 
 ```bash
 
-npm i 
+node imdex.js 
 
+```
+
+3. Request format
+
+```bash
+
+GET: http://localhost:3434/api
+
+```
+
+4. Response format
+
+```javascript
+{
+  "email": "mkusimo90@gmail.com",
+  "current_datetime": "2025-01-31T23:09:08.332Z",
+  "github_url": "https://github.com/mojeedkusimo/hng12-nodejs-task1"
+}
 ```
